@@ -1,4 +1,7 @@
 site_name: Airflow-doc-zh
+markdown_extensions:
+    - toc:
+        permalink: "#"
 nav:
     - 'Introduction': 'index.md'
     - '贡献': '1.md'
