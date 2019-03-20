@@ -5,3 +5,8 @@ markdown_extensions:
 nav:
     - 'Introduction': 'index.md'
     - '贡献': '1.md'
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - python
