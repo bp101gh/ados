@@ -3,10 +3,41 @@ markdown_extensions:
     - toc:
         permalink: "#"
 nav:
-    - 'Introduction': 'index.md'
-    - '贡献': '1.md'
+    - "项目": 1.md
+    - "管理连接": 10.md
+    - "保护连接": 11.md
+    - "写日志": 12.md
+    - "使用 Celery 扩大规模": 13.md
+    - "使用 Dask 扩展": 14.md
+    - "使用 Mesos 扩展（社区贡献）": 15.md
+    - "使用 systemd 运行 Airflow": 16.md
+    - "使用 upstart 运行 Airflow": 17.md
+    - "使用测试模式配置": 18.md
+    - "UI/截图": 19.md
+    - "协议": 2.md
+    - "概念": 20.md
+    - "数据分析": 21.md
+    - "命令行接口": 22.md
+    - "调度和触发器": 23.md
+    - "插件": 24.md
+    - "安全": 25.md
+    - "时区": 26.md
+    - "实验性 Rest API": 27.md
+    - "集成": 28.md
+    - "数据血缘(Lineage)": 29.md
+    - "快速开始": 3.md
+    - "常见问题": 30.md
+    - "API 参考": 31.md
+    - "安装": 4.md
+    - "教程": 5.md
+    - "操作指南": 6.md
+    - "设置配置选项": 7.md
+    - "初始化数据库": 8.md
+    - "使用 Operators（执行器）": 9.md
 theme:
     name: readthedocs
     highlightjs: true
     hljs_languages:
         - python
+
+docs_dir: 'zh'
